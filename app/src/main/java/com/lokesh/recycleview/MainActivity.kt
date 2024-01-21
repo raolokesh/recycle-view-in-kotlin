@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         )
         val recyclerView:RecyclerView = findViewById(R.id.recycleview)
 
-        val layoutManager = GridLayoutManager(this,3)
+        val layoutManager = GridLayoutManager(this,2)
         val adapter = ContactAdapter(contactList)
         recyclerView.layoutManager = layoutManager
 
